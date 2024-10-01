@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    margin-left: 15px;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    float: left;
+    display: block;
+    padding-left: 20px;
+}
+
+.nav ul li a:hover {
+    color: #fd0202;
+}
+.breaker {
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #494848;
+    margin-top: 20px;
+}
+
+.info p {
+    margin-left: 15px;
+}
+
+.footer p {
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 10px;
+}
+.container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 5px;
+}
